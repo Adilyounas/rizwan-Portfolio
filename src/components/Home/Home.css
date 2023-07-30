@@ -4,7 +4,7 @@
 
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
-  padding-top: 5.5rem;
+  padding-top: 3rem;
   column-gap: 2rem;
   align-items: center;
 }
@@ -187,9 +187,13 @@
 
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 450px) {
   .home__title {
     text-align: center;
+  }
+
+  .home__content {
+    padding-top: 0rem;
   }
   
 }
